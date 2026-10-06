@@ -32,7 +32,8 @@
         ],
         "brandColor": "#2743F0",
         "composerIcon": "./assets/mark.svg",
-        "logo": "./assets/mark.svg"
+        "logo": "./assets/mark.svg",
+        "supportURL": "https://verelyn.com/contact"
       }
     }
   }
