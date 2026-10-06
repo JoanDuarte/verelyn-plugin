@@ -1,0 +1,9 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/mcp.schema.json",
+  "mcpServers": {
+    "verelyn": {
+      "type": "streamable-http",
+      "url": "https://verelyn.com/api/mcp"
+    }
+  }
+}

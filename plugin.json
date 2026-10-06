@@ -1,0 +1,39 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "name": "verelyn",
+  "version": "0.1.0",
+  "description": "Read your daily news briefing and follow the topics and situations that matter to you, with the sources shown.",
+  "author": {
+    "name": "Joan Duarte",
+    "email": "getverelyn@gmail.com",
+    "url": "https://verelyn.com"
+  },
+  "homepage": "https://verelyn.com",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "displayName": "Verelyn",
+        "shortDescription": "Personalized news briefings",
+        "longDescription": "Verelyn reads sources once for everyone, checks what they say, and gives you only what changed in the companies, people and topics you follow, with the sources shown.\n\nConnect your Verelyn account to read your latest briefing, see the alerts and updates already sent to you, and review the topics and situations you follow. Items whose sources are flagged as disputed are marked. If you allow changes, your assistant can pass on what you tell it to follow, follow less of, or stop following, and can follow a situation from a story you were sent. If you turn on the memory setting, it can also pass on what you tell it about your work and interests, in your own words, and Verelyn keeps it.\n\nFollowing a situation uses your credits: on block-credit plans, each new block it publishes; on older credit terms, every day it is followed. Your assistant should tell you before it starts one.\n\nWhat an assistant can do is set by what you allow when you connect it, and you can revoke it at any time in Your Verelyn, under Connections. A Verelyn account is required. Coverage and freshness depend on the sources available for each topic. Verelyn is informational reporting, not a minute-by-minute alert service and not advice.",
+        "developerName": "Joan Duarte",
+        "category": "Productivity",
+        "capabilities": [
+          "Read briefings",
+          "Read sourced updates",
+          "Review followed topics"
+        ],
+        "websiteURL": "https://verelyn.com",
+        "privacyPolicyURL": "https://verelyn.com/privacy",
+        "termsOfServiceURL": "https://verelyn.com/terms",
+        "defaultPrompt": [
+          "Show my latest Verelyn briefing and the sources behind each update.",
+          "What changed in the topics I follow? Mark anything whose sources are disputed.",
+          "Which topics and situations am I following in Verelyn?"
+        ],
+        "brandColor": "#2743F0",
+        "composerIcon": "./assets/mark.svg",
+        "logo": "./assets/mark.svg"
+      }
+    }
+  }
+}
